@@ -1,0 +1,212 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    font-size: 14px;
+    margin: 0;
+}
+
+.main {
+    background: rgb(60, 62, 67);
+    background: radial-gradient(circle, rgb(69, 69, 65) 31%, rgb(83, 51, 51) 72%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#music-player {
+    width: 320px;
+    height: 550px;
+}
+
+.container {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(0,212,255,1) 50%, rgba(103,37,161,0.7596288515406162) 80%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7%;
+    margin: 5px 0;
+}
+
+.player,
+.player-list {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.content-img {
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 50%;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.song-time {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+
+  .progress-container {
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0 20px 0;
+    height: 6px;
+    width: 80%;
+  }
+  
+  /* styling the actual progress bar and making it flow along with the song*/
+  .progress {
+    background-color: #fe8daa;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+
+  .song-info {
+    margin: 30px 0 50px 0;
+    align-items: center;
+    width: 250px;
+    height: 20px;
+  }
+
+  .song-title {
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .song-singer {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+
+  .player-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+    margin: 20px auto; 
+  }
+
+  .btn:hover {
+    transform: scale(1.2);
+    transition: all .4s;
+  }
+  .btn:active {
+    background-color: rgb(55, 56, 132);
+  }
+  
+  .btn-play {
+    background: rgb(103,37,161);
+    background: linear-gradient(90deg, rgba(103,37,161,1) 31%, rgba(2,0,36,1) 70%);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .player-buttons-img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .player-play-button {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  }
+  .play {
+    width: 40px;
+    height: 40px;
+    margin-left: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pause {
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-next {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .btn-prev {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+  }
+.song-1 {
+  /* background-color: rgb(92, 82, 82); */
+  border-radius: 5%;
+  width: 250px;
+  height: 70px;
+  margin: 5px auto;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.song-1-title {
+  margin: 5px 10px;
+}
+
+.song-1-singer {
+  margin: 5px 10px;
+}

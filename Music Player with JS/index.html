@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div id="music-player">
+            <div class="container player" id="player">
+                <div class="content">
+                    <img id="song-img" class="content-img" src="img/Back In The Game.jpeg" alt="song image">
+                    <div class="song-time">
+                        <div id="start"></div>
+                        <div id="end"></div>
+                    </div>
+                      <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                      </div>
+                      <div class="song-info">
+                          <h1 class="song-title title"></h1>
+                          <h6 class="song-singer singer"></h6>
+                      </div>
+                      <audio id="audio" src="music/Pop Smoke - Hello.mp3"></audio>
+                      <div class="player-buttons">
+                        <button id="prev-song" class="player-buttons-previus btn-prev btn">
+                            <img class="player-buttons-img" src="img/prev.png" alt="previus songs">
+                        </button>
+                            <button id="play-song" class="player-buttons-play btn-play btn">
+                                <img class="player-buttons-img play" src="img/play.png" alt="play the songs">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <button id="pause-song" class="player-buttons-pause btn-play btn" style="display: none;">
+                                <img class="player-buttons-img pause" src="img/pause.png" alt="pause the songs">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        <button id="next-song" class="player-buttons-next btn-next btn">
+                            <img class="player-buttons-img" src="img/next.png" alt="next songs">
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <!-- Player list songs -->
+            <!--  <div class="container player-list">
+                <div class="content">
+                    
+                     <div class="song-play">
+                        <h1 class="song-title">Hello</h1>
+                        <h6 class="song-singer">Pop Smoke</h6>
+                    </div>
+                    <div class="list">
+                        <div class="song-1">
+                            <h2 class="song-1-title">Back in the game</h2>
+                            <h6 class="song-1-singer">Snoop Dogg</h6>
+                        </div>
+                        <div class="song-2"></div>
+                        <div class="song-3"></div>
+                        <div class="song-4"></div>
+                    </div> 
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
