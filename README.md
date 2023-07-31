@@ -1,2 +1,2 @@
 # Music-Player-with-JS
-Music player
+Music player with good music!
